@@ -1,0 +1,45 @@
+:root {
+  --bg: linear-gradient(135deg, #0f172a, #1e293b 40%, #334155);
+  --card: rgba(255, 255, 255, 0.95);
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.bg-gradient {
+  background: var(--bg);
+}
+
+.app-bg {
+  background: #f1f5f9;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border-radius: 18px;
+}
+
+.metric-card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+}
+
+.metric-card small {
+  display: block;
+  color: #475569;
+}
+
+.metric-card strong {
+  font-size: 1.8rem;
+}
+
+.thumb {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
