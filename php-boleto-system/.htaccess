@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Se o domínio apontar para a raiz do projeto, redireciona tudo para /public
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ public/$1 [L]
